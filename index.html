@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Svelte + TS</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      nav{
+        background-color: red;
+        font-size: 40px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+
+    <mdb-header>
+      <div slot="my-text">
+        <h1>this is a slot</h1>
+      </div>
+    </mdb-header>
+    <nav>this is consuming app</nav>
+    
+
+  </body>
+</html>
